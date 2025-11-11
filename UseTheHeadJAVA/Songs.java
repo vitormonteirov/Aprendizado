@@ -1,0 +1,32 @@
+package Aprendizado.UseTheHeadJAVA;
+import java.util.*;
+
+
+public class Songs {
+    public List<Song> getSongs(){
+        return List.of(
+                new Song("$10", "Hitchhiker", "Electronic", 2016, 183),
+                new Song("Havana","Camila Cabello", "R&B", 2017, 324),
+                new Song("Cassidy", "Grateful Dead", "Rock", 1972,123),
+                new Song("50 ways", "Paul Simon", "Soft Rock", 1975, 199),
+                new Song("Hurt", "Nine Inch Nails", "Industrial Rock", 1995,257),
+                new Song("Silence", "Delerium", "Electronic", 1999,134),
+                new Song("Hurt", "Johnny Cash", "Soft Rock", 2002, 392),
+                new Song("Watercolou", "Pendulum", "Electronic", 2010, 155),
+                new Song("The Outsider", "A Perfect Circle", "Alternative Rock", 2004, 312),
+                new Song("With a Little Help from My Friends", "The Beatles", "Rock", 1967, 168),
+                new Song("COme Together", "The Beatles", "Blues Rock", 1968, 173),
+                new Song("Come Together", "Ike & Tina Turner", "Rock", 1970, 165),
+                new Song("With a Little Help from My Friends", "Joe Cocker", "Rock", 1968, 46),
+                new Song("Immigrant Song", "Karen O", "Industrial Rock", 2011, 12),
+                new Song("Breathe", "The Prodigy", "Electronic", 1996, 337),
+                new Song("Whats Going On", "Gaye", "R&B", 1971, 420),
+                new Song("Hallucinate", "Dua Lipa", "Pop", 2020, 75),
+                new Song("Walk me Home", "P!nkl", "Pop", 2019, 459),
+                new Song("Im a not a woman, Im a god", "Halsey", "Alternative Rock", 2021, 384),
+                new Song("Pasos de cero", "Pablo Alboran", "Latin", 2014, 244),
+                new Song("Smooth", "Santana", "Latin", 1999, 244),
+                new Song("Immigrant song", "Led Zeppelin", "Rock", 1970, 484)
+        );
+    }
+}
