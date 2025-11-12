@@ -7,12 +7,39 @@ public class Song {
     private final int year;
     private final int timesPlayed;
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public int getTimesPlayed() {
+        return timesPlayed;
+    }
+
+    @Override
+    public String toString() {
+        return '{'+ title + ", " + artist + ", " + genre + '}';
+    }
+
     public Song(String title, String artist, String genre, int year, int timesPlayed) {
         this.title = title;
         this.artist = artist;
         this.genre = genre;
         this.year = year;
         this.timesPlayed = timesPlayed;
+
+
     }
 }
 
