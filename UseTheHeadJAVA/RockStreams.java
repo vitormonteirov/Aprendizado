@@ -7,7 +7,7 @@ public class RockStreams {
         List<Song> songs = new Songs().getSongs();
 
         List<Song> rockSongs = songs.stream()
-                .filter(song -> song.getGenre().equals("Rock"))
+                .filter(song -> song.getGenre().contains("Rock"))
                 .collect(Collectors.toList());
 
 
