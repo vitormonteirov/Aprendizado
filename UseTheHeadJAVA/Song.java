@@ -29,7 +29,7 @@ public class Song {
 
     @Override
     public String toString() {
-        return '{'+ title + ", " + artist + ", " + genre + '}';
+        return '{'+ title + " de " + artist + '}';
 
 
     }

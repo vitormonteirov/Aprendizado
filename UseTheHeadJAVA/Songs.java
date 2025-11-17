@@ -12,7 +12,7 @@ public class Songs {
                 new Song("Hurt", "Nine Inch Nails", "Industrial Rock", 1995,257),
                 new Song("Silence", "Delerium", "Electronic", 1999,134),
                 new Song("Hurt", "Johnny Cash", "Soft Rock", 2002, 392),
-                new Song("Watercolou", "Pendulum", "Electronic", 2010, 155),
+                new Song("Watercolor", "Pendulum", "Electronic", 2010, 155),
                 new Song("The Outsider", "A Perfect Circle", "Alternative Rock", 2004, 312),
                 new Song("With a Little Help from My Friends", "The Beatles", "Rock", 1967, 168),
                 new Song("Come Together", "The Beatles", "Blues Rock", 1968, 173),

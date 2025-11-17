@@ -8,11 +8,16 @@ public class RockStreams {
 
         List<Song> rockSongs = songs.stream()
                 .filter(song -> song.getGenre().contains("Rock"))
+                .distinct()
                 .collect(Collectors.toList());
 
+        System.out.println("The list of Rock music are: " + rockSongs);
 
+        List<Song> electroSongs = songs.stream()
+                .filter(song -> song.getGenre().equals("Electronic"))
+                .distinct()
+                .collect(Collectors.toList());
 
-
-        System.out.println(rockSongs);
+        System.out.println("The list of Electro music are: " + electroSongs);
     }
 }
