@@ -11,6 +11,7 @@ public class Main {
         System.out.println("Nome: " + h.getName());
         System.out.println("Pelagem: " + h.getCorPelagem());
 
+
         h.bark();       // herdado de GoodDog
         h.puxarTreno(); // método próprio de Husky
     }

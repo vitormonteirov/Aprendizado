@@ -14,6 +14,9 @@ public class Husky extends goodCat{
 
     public void puxarTreno() {
         System.out.println(getName() + " está puxando o trenó!");
+
+
+
     }
 }
 
