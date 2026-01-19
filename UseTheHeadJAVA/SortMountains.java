@@ -1,14 +1,10 @@
 package Aprendizado.UseTheHeadJAVA;
 import java.util.*;
-
-
 public class SortMountains {
     public static void main(String[] args) {
         new SortMountains().go();
     }
-
     public void go() {
-
         List<Mountain> mountains = new ArrayList<>();
         mountains.add(new Mountain("Longs", 14255));
         mountains.add(new Mountain("Elbert", 14433));
