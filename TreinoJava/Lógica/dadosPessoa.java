@@ -1,4 +1,4 @@
-package Aprendizado.TreinoJava;
+package Aprendizado.TreinoJava.Lógica;
 
 public class dadosPessoa {
 

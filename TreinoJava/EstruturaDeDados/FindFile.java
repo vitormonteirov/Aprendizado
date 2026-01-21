@@ -1,4 +1,5 @@
-package Aprendizado.TreinoJava;
+package Aprendizado.TreinoJava.EstruturaDeDados;
+
 import javax.swing.JOptionPane;
 import java.io.File;
 import java.io.IOException;

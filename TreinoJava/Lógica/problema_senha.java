@@ -1,4 +1,4 @@
-package Aprendizado.TreinoJava;
+package Aprendizado.TreinoJava.Lógica;
 import java.util.Scanner;
 
 public class problema_senha {

@@ -1,4 +1,4 @@
-package Aprendizado.TreinoJava;
+package Aprendizado.TreinoJava.EstruturaDeDados;
 import javax.swing.JOptionPane;
 import javax.swing.JFileChooser;
 import java.io.File;
