@@ -8,6 +8,8 @@ public class calculoDeSalario {
         double salarioFinal;
         String usuario;
 
+        //Esse tratamento de erros ficou lento no tempo de execução,se faz necessário melhoria.
+
         try {
             usuario = JOptionPane.showInputDialog("Digite o nome do usuario: ");
 
