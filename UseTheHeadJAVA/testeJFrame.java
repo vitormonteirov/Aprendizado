@@ -19,36 +19,21 @@ public class testeJFrame implements ActionListener {
         button.addActionListener(this);
         this.button = button;
 
-        frame.getContentPane().add(button);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(300,300);
-        frame.setVisible(true);
-        }
+        drawPanel drawPanel = new drawPanel();
 
-        public void actionPerformed(ActionEvent e) {
-         button.setText("Não me cutuque");
+        frame.getContentPane().add(BorderLayout.SOUTH, button);
+        frame.getContentPane().add(BorderLayout.CENTER,  drawPanel );
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(300, 300);
+        frame.setVisible(true);
+        frame.repaint();
     }
+        public void actionPerformed(ActionEvent e) {
+         button.setText("Raiga");
+             }
    //Não consegui inserir uma imagem
     public void imagem(Graphics g){
        Image image = new ImageIcon(getClass().getResource("/Aprendizado.png")).getImage();
     }
-
-    public void paintComponent(Graphics g){
-        Graphics2D g2d = (Graphics2D) g;
-
-        Random rand = new Random();
-        int red = rand.nextInt(256);
-        int green = rand.nextInt(256);
-        int blue = rand.nextInt(256);
-        Color startColor = new Color(red,green,blue);
-
-        red = rand.nextInt(255);
-        green = rand.nextInt(255);
-        blue = rand.nextInt(255);
-        Color endColor = new Color(red,green,blue);
-
-        GradientPaint gradient = new GradientPaint(70, 70, startColor, 150, 150, endColor);
-        g2d.setPaint(gradient);
-        g2d.fillOval(70, 70, 150, 150);
     }
-}
+
