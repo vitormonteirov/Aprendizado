@@ -28,6 +28,7 @@ public class testeJFrame implements ActionListener {
         frame.setVisible(true);
         frame.repaint();
     }
+    //Pode ser substituido por uma expressao lambda
         public void actionPerformed(ActionEvent e) {
          button.setText("Raiga");
              }
