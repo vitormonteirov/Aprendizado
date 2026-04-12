@@ -1,4 +1,4 @@
-package Aprendizado.TreinoJava.Lógica;
+package Aprendizado.TreinoJava.Logica;
 import java.util.Scanner;
 
 public class problema_senha {
@@ -21,5 +21,6 @@ public class problema_senha {
         System.out.println("Acesso Permitido");
 
         leitorDeSenha.close();
+        // teste
     }
 }

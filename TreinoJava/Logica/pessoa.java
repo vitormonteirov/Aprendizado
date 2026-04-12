@@ -1,4 +1,4 @@
-package Aprendizado.TreinoJava.Lógica;
+package Aprendizado.TreinoJava.Logica;
 
 // Classe para representar uma pessoa e calcular seu IMC
 class Pessoa {

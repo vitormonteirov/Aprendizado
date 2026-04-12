@@ -1,8 +1,7 @@
-package Aprendizado.TreinoJava.Lógica;
-
+package Aprendizado.TreinoJava.Logica;
 import java.util.Scanner;
 
-public class problema_soluçaoCrescente {
+public class problema_TentativaCrescente {
     public static void main(String[] args) {
         Scanner leitorDeNumero = new Scanner(System.in);
 
@@ -12,19 +11,16 @@ public class problema_soluçaoCrescente {
         x = leitorDeNumero.nextInt();
         y = leitorDeNumero.nextInt();
 
-        while (x != y)  {
+        while (leitorDeNumero.hasNextLine())  {
             String crescente = (x > y) ? "Os números estão em ordem decrescente" : "Os números estão em ordem crescente";
             System.out.println(crescente);
 
-            System.out.print("Digite dois numeros: ");
-            x = leitorDeNumero.nextInt();
-            y = leitorDeNumero.nextInt();
+                System.out.print("Digite dois numeros: ");
+                x = leitorDeNumero.nextInt();
+                y = leitorDeNumero.nextInt();
 
-            if (x == y) {
-                System.out.println("Os números são iguais");
-                leitorDeNumero.close();
-            }
+
+
         }
     }
 }
-

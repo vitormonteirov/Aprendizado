@@ -1,4 +1,4 @@
-package Aprendizado.TreinoJava.Lógica;
+package Aprendizado.TreinoJava.Logica;
 import java.util.*;
 
 public class simuladoQ16 {

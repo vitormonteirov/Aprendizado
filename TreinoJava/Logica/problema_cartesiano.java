@@ -1,4 +1,4 @@
-package Aprendizado.TreinoJava.Lógica;
+package Aprendizado.TreinoJava.Logica;
 import java.util.Scanner;
 
 public class problema_cartesiano {
