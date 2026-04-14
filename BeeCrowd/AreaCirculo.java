@@ -9,7 +9,7 @@ public class AreaCirculo {
             double raio;
             double n = 3.14159;
             raio = sc.nextDouble();
-            double area = n * (Math.pow(raio, 2));
+            double area = n * (Math.pow(raio, 3));
             System.out.println("A= " + area);
         }
     }
