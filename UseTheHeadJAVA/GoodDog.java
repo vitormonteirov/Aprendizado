@@ -6,7 +6,8 @@ public class GoodDog {
     private String name;
     private int idade;
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
     public int getIdade() {

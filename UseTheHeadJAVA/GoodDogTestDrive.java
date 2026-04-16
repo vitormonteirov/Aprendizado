@@ -25,6 +25,10 @@ public class GoodDogTestDrive {
         pets[0].setName("Snoop");
         pets[0].setIdade(7);
 
+        pets[1].setName("Paçoca");
+
+        System.out.println("Pet de Pedro é: " + pets[1].getName());
+
         System.out.println("O nome do primeiro cão é " + pets[0].getName() + " e sua idade é "+ pets[0].getIdade() + " anos.");
 
         pets[3].setName("Eco");
