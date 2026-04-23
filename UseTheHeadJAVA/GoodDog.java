@@ -9,21 +9,27 @@ public class GoodDog {
     public String getName()
     {
         return name;
+
     }
     public int getIdade() {
         return idade;
+
     }
     public void setName(String name) {
         this.name = name;
+
     }
     public void setIdade(int idade) {
         this.idade = idade;
+
     }
     public int getSize() {
         return size;
+
     }
     public void setSize(int s){
         size = s;
+
     }
     void bark(){
         if (size > 60){
