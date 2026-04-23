@@ -1,7 +1,7 @@
 package Aprendizado.BeeCrowd;
 import java.util.*;
 
-public class SomaSimples {
+public class BEE1003 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int A = sc.nextInt();

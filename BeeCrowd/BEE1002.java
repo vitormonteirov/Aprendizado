@@ -2,7 +2,7 @@ package Aprendizado.BeeCrowd;
 import java.util.Scanner;
 import java.util.Locale;
 
-public class AreaCirculo {
+public class BEE1002 {
         public static void main(String[] args) {
             Locale.setDefault(Locale.US);
             Scanner sc = new Scanner(System.in);

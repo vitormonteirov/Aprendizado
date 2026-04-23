@@ -1,6 +1,6 @@
 package Aprendizado.BeeCrowd;
 
-public class soma2 {
+public class EXSIMPLES {
     public static void main(String[] args) {
         int X = 2;
         int Z = 3;

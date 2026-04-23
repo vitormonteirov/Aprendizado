@@ -1,7 +1,7 @@
 package Aprendizado.BeeCrowd;
 import java.util.*;
 
-public class VerIdade {
+public class AtvLogica {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
