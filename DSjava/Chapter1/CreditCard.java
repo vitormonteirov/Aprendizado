@@ -8,12 +8,12 @@ public class CreditCard {
     private double balance;
     private int limit;
     // Construtor
-    public CreditCard(String number, String name, String bank, Double balance, int limit) {
-        this.number = number;
-        this.name = name;
-        this.bank = bank;
-        this.balance = balance;
-        limit = limit;
+    public CreditCard(String no, String nm, String bk, Double bal, int lim) {
+        number = no;
+        name = nm;
+        bank = bk;
+        balance = bal;
+        limit = lim;
     }
     // Metodos de Aceso
     public String getNumber() {
@@ -35,11 +35,15 @@ public class CreditCard {
     public int getLimit() {
         return limit;
     }
+
     public boolean chargeIt(double price){ //debita
         if(price + balance > (double)limit)
             return false; // Não há dinheiro suficiente
         balance += price;
         return true; // Neste caso, Debito efetivado
+    }
+    public void makePayment(double payment){
+        balance -= payment;
     }
     public static void printCard(CreditCard c){
         System.out.println("Card Number: " + c.getNumber());
