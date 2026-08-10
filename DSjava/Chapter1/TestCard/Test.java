@@ -1,4 +1,4 @@
-package Aprendizado.DSjava.Chapter1;
+package Aprendizado.DSjava.Chapter1.TestCard;
 
 public class Test {
     public static void main(String[] args) {
