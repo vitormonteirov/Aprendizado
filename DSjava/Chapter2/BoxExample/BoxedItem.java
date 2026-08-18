@@ -1,6 +1,6 @@
-package Aprendizado.DSjava.Chapter2;
+package Aprendizado.DSjava.Chapter2.BoxExample;
 
-public class BoxedItem implements Sellable, Transportable{
+public class BoxedItem implements Sellable, Transportable {
     private String descript;
     private int price;
     private int weight;

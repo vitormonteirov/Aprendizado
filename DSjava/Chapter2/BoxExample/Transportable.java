@@ -1,4 +1,4 @@
-package Aprendizado.DSjava.Chapter2;
+package Aprendizado.DSjava.Chapter2.BoxExample;
 
 public interface Transportable {
     public int weight();
