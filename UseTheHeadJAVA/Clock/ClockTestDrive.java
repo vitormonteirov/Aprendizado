@@ -1,4 +1,4 @@
-package Aprendizado.UseTheHeadJAVA;
+package Aprendizado.UseTheHeadJAVA.Clock;
 
 public class ClockTestDrive {
     public static void main(String[] args) {

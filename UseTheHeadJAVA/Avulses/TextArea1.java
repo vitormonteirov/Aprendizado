@@ -1,4 +1,4 @@
-package Aprendizado.UseTheHeadJAVA;
+package Aprendizado.UseTheHeadJAVA.Avulses;
 import javax.swing.*;
 import java.awt.*;
 

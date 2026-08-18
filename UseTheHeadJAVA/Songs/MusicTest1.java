@@ -1,4 +1,4 @@
-package Aprendizado.UseTheHeadJAVA;
+package Aprendizado.UseTheHeadJAVA.Songs;
 import javax.sound.midi.*;
 
 public class MusicTest1 {

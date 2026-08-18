@@ -1,5 +1,7 @@
-package Aprendizado.UseTheHeadJAVA;
+package Aprendizado.UseTheHeadJAVA.StartUp;
 
+
+import Aprendizado.UseTheHeadJAVA.Avulses.GameHelper;
 
 public class SimpleStartupTestDrive {
     public static void main(String[] args) {

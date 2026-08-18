@@ -1,4 +1,4 @@
-package Aprendizado.UseTheHeadJAVA;
+package Aprendizado.UseTheHeadJAVA.Songs;
 
 public class Song {
     private final String title;

@@ -1,4 +1,4 @@
-package Aprendizado.UseTheHeadJAVA;
+package Aprendizado.UseTheHeadJAVA.Songs;
 import java.util.*;
 import java.util.stream.Collectors;
 

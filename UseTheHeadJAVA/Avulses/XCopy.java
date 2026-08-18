@@ -1,4 +1,4 @@
-package Aprendizado.UseTheHeadJAVA;
+package Aprendizado.UseTheHeadJAVA.Avulses;
 
 public class XCopy {
     public static void main(String[] args) {

@@ -1,5 +1,4 @@
-package Aprendizado.UseTheHeadJAVA;
-import java.util.ArrayList;
+package Aprendizado.UseTheHeadJAVA.StartUp;
 import java.util.Scanner;
 
 public  class SimpleStartup {

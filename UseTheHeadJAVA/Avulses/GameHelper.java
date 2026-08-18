@@ -1,4 +1,4 @@
-package Aprendizado.UseTheHeadJAVA;
+package Aprendizado.UseTheHeadJAVA.Avulses;
 import java.util.Scanner;
 
 public class GameHelper {
