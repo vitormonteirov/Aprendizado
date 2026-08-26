@@ -1,4 +1,4 @@
-package Aprendizado.DSjava.Chapter1.Arithmetic;
+package Aprendizado.DSjava.Chapter2.Arithmetic;
 
 public class TestProgression {
     public static void main(String[] args) {

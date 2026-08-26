@@ -1,4 +1,4 @@
-package Aprendizado.DSjava.Chapter1.Arithmetic;
+package Aprendizado.DSjava.Chapter2.Arithmetic;
 
 public class GeomProgression extends Progression {
     protected long base;

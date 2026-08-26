@@ -1,4 +1,6 @@
-package Aprendizado.DSjava.Chapter1.Arithmetic;
+package Aprendizado.DSjava.Chapter2.Arithmetic;
+
+import java.util.ArrayList;
 
 public class Progression {
 
@@ -29,5 +31,12 @@ public class Progression {
         for (int i = 2; i <= n; i++)
             System.out.print(" " + nextValue());
         System.out.println(); //Termina a linha
+    }
+    public long novaProgression(int j){
+        ArrayList<Long> lista = new ArrayList<>();
+        lista.add(firstValue());
+        for (int i =2; i <= j; i++)
+            lista.add(nextValue());
+        return lista.get(j-1);
     }
 }

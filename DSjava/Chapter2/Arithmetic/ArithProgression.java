@@ -1,4 +1,4 @@
-package Aprendizado.DSjava.Chapter1.Arithmetic;
+package Aprendizado.DSjava.Chapter2.Arithmetic;
 
 public class ArithProgression extends Progression {
     protected long inc;
@@ -8,7 +8,7 @@ public class ArithProgression extends Progression {
         this(1);
     }
     //Construtor parametrico fornece o incremento
-    ArithProgression(long increment){
+    public ArithProgression(long increment){
         inc = increment;
     }
     protected long nextValue() {
